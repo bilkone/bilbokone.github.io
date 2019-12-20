@@ -1,0 +1,108 @@
+html {
+  background: url("b1.jpeg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #000;
+    
+
+}
+
+body {
+  padding-top: 60px;
+  background: transparent;
+  font-size: 1.6em;
+  font-family: monospace;
+  color: white;
+    
+}
+
+div.row {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+    }
+
+img {
+  max-width: 100%;
+ 
+}
+
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: #000;
+}
+
+#navbar a {
+  text-align: center;
+  color: #000;
+}
+
+.navbar .nav > li > a {
+  -webkit-transition: all ease .7s;
+  -moz-transition: all ease .7s;
+  -o-transition: all ease .7s;
+  transition: all ease .7s;
+}
+
+#navbar .nav > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: bisque;
+}
+
+#navbar .nav > li.active > a {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: bisque;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.textColor{
+
+            color: white;
+            font-family: monospace;
+}
+
+h1{
+            font-family: monospace;
+}
+
+body {
+    margin:4rem;
+}
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 50px auto;
+  }
+
+
+
+.modal-body {
+  position: relative;
+  padding: 20px;
+    
+}
+
+.close {
+  position:absolute;
+  right: -20px;
+  top:0;
+  z-index:999;
+  font-size:3rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+    
+}
+
+
